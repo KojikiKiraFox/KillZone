@@ -419,10 +419,15 @@ textarea {
   margin: 0;
   border: 1px solid #ff0000;
   border-radius: 5px;
-  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+ -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+ -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+ box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+ box-shadow 0.15s ease-in-out,
+ -webkit-box-shadow 0.15s ease-in-out;
   color: #fff;
   background: #141414;
   max-width: 510px;
@@ -608,7 +613,7 @@ input[type="submit"] {
 
 .creat-block::before {
   z-index: -1;
-  background: url("../img/creat/01.png") center no-repeat, linear-gradient(89.66deg, rgba(0, 0, 0, 0.93) 25.88%, rgba(66, 65, 65, 0) 99.7%);
+  background: url("../img/creat/01.png") center no-repeat, linear-gradient(89.66deg, #000000 22.31%, rgba(0, 0, 0, 0) 99.7%);
   content: '';
   position: absolute;
   top: 0;
