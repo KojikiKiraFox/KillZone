@@ -1,0 +1,27 @@
+.footer{
+    background: #333333;
+    padding: 35px 0 18px;
+    &-items{
+        &-left{
+            display: flex;
+            justify-content: space-between;
+            .cont{
+                color: #fff;
+            }
+        }
+        &-bottom{
+            margin-top: 35px;
+            display: flex;
+            justify-content: end;
+            .politic{
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
+                &:not(:first-child){
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.where{
+    &-col{
+        &-text{
+            max-width: 205px;
+            width: 100%;
+            margin: 15px;
+        }
+        &-title{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 35px;
+            margin-bottom: 12px;
+        }
+        &-tel{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 10px;
+        }
+        &-subtitle{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        &-items{
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 45px;
+        }
+    }
+    &-items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__half{
+            margin-bottom: 15px;
+        }
+        &__textarea{
+            resize: none;
+            margin-bottom: 25px;
+        }
+    }
+    &-btn{
+        margin: 0 auto;
+    }
+}

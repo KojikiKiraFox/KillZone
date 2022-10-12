@@ -354,6 +354,7 @@ html {
   font-family: 'Roboto';
   font-size: 16px;
   background: #1E1E1E;
+  color: #fff;
 }
 
 ul,
@@ -370,7 +371,7 @@ a {
 }
 
 .section {
-  padding: 10px 0;
+  padding: 35px 0;
 }
 
 .section-title {
@@ -395,20 +396,44 @@ input {
   font-size: inherit;
   line-height: inherit;
   margin: 0;
-  border: none;
+  border: 1px solid #ff0000;
   border-radius: 5px;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  background: #141414;
+  padding: 12px 46px 12px 12px;
+  color: #fff;
 }
 
 input:focus {
-  background-color: #fff;
-  border-color: #bdbdbd;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  background: #080808;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background: #141414;
+  max-width: 510px;
+  max-height: 195px;
+  width: 100%;
+  padding: 15px 12px;
+}
+
+textarea:focus {
+  outline: 0;
+  background: #080808;
 }
 
 input[type="submit"] {
@@ -492,14 +517,14 @@ input[type="submit"] {
   margin-right: 25px;
 }
 
-.header .navigation-item {
+.navigation-item {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
 }
 
-.header .navigation-item:not(:last-child) {
+.navigation-item:not(:last-child) {
   margin-right: 25px;
 }
 
@@ -646,5 +671,113 @@ input[type="submit"] {
 .partners-link-img {
   max-width: 90px;
   max-height: 95px;
+}
+
+.where-col-text {
+  max-width: 205px;
+  width: 100%;
+  margin: 15px;
+}
+
+.where-col-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 12px;
+}
+
+.where-col-tel {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.where-col-subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.where-col-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.where-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.where-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.where-form__half {
+  margin-bottom: 15px;
+}
+
+.where-form__textarea {
+  resize: none;
+  margin-bottom: 25px;
+}
+
+.where-btn {
+  margin: 0 auto;
+}
+
+.footer {
+  background: #333333;
+  padding: 35px 0 18px;
+}
+
+.footer-items-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-items-left .cont {
+  color: #fff;
+}
+
+.footer-items-bottom {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.footer-items-bottom .politic {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-items-bottom .politic:not(:first-child) {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */

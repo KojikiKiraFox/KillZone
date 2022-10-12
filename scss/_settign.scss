@@ -10,6 +10,7 @@ html {
     font-family: 'Roboto';
     font-size: 16px;
     background: #1E1E1E;
+    color: #fff;
 }
 
 ul,
@@ -26,7 +27,7 @@ a {
 }
 
 .section{
-    padding: 10px 0;
+    padding: 35px 0;
     &-title{
         text-align: center;
         font-size: 30px;
@@ -52,14 +53,36 @@ input{
     font-size: inherit; 
     line-height: inherit; 
     margin: 0; 
-    border:none;
+    border:1px solid #ff0000;
     border-radius: 5px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background: #141414;
+    padding: 12px 46px 12px 12px;
+    color: #fff;
     &:focus{
-        background-color: #fff;
-        border-color: #bdbdbd;
         outline: 0;
-        box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+        background: #080808;
+    }
+}
+
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    border:1px solid #ff0000;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background: #141414;
+    max-width: 510px;
+    max-height: 195px;
+    width: 100%;
+    padding: 15px 12px;
+    &:focus {
+        outline: 0;
+        background: #080808;
     }
 }
 
