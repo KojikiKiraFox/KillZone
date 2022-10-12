@@ -1,0 +1,25 @@
+.partners{
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:first-child{
+            border-bottom: 1px solid #ff0000 ;
+        }
+        &-item{
+            max-width: 150px;
+            width: 100%;
+            padding: 25px 60px 30px;
+            &:not(:first-child){
+                border-left: 1px solid #ff0000;
+            }
+        }
+    }
+    &-link{
+        margin: 0 auto;
+        &-img{
+            max-width: 90px;
+            max-height: 95px;
+        }
+    }
+}
